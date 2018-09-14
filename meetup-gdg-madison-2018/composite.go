@@ -17,6 +17,7 @@ func main() {
 	menu["pumpkin spice latte"] = 5
 	menu["red tea"] = 4
 	menu["hot chocolate"] = 3
+	
 
 	fmt.Println(menu)
 	delete(menu, "pumpkin spice latte") // Delete from a map by referring to its key.
